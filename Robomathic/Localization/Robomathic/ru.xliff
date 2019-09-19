@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="Robomathic/Support files/en.lproj/InfoPlist.strings" source-language="en" datatype="plaintext" target-language="ru">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>Robomathic</source>
+        <target>Robomathic</target>
+        <note>Bundle display name</note>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Robomathic/Support files/en.lproj/Localizable.strings" source-language="en" datatype="plaintext" target-language="ru">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+    </header>
+    <body>
+      <trans-unit id="Clean">
+        <source>Clean</source>
+        <target>Очистить</target>
+        <note>Keyboard clean button</note>
+      </trans-unit>
+      <trans-unit id="Ease">
+        <source>Ease</source>
+        <target>Легко</target>
+        <note>Button level training</note>
+      </trans-unit>
+      <trans-unit id="Hard">
+        <source>Hard</source>
+        <target>Тяжело</target>
+        <note>Button level training</note>
+      </trans-unit>
+      <trans-unit id="Medium">
+        <source>Medium</source>
+        <target>Средне</target>
+        <note>Button level training</note>
+      </trans-unit>
+      <trans-unit id="Menu">
+        <source>Menu</source>
+        <target>Меню</target>
+        <note>Button return menu</note>
+      </trans-unit>
+      <trans-unit id="Send">
+        <source>Send</source>
+        <target>Принять</target>
+        <note>Keyboard enter button</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Robomathic/View/Base.lproj/LaunchScreen.storyboard" source-language="en" datatype="plaintext" target-language="ru">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+    </header>
+    <body>
+      <trans-unit id="Sgs-ZK-h1e.text">
+        <source>www.aleksey.store</source>
+        <target>www.aleksey.store</target>
+        <note>Class = "UILabel"; text = "www.aleksey.store"; ObjectID = "Sgs-ZK-h1e";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Robomathic/View/Base.lproj/Main.storyboard" source-language="en" datatype="plaintext" target-language="ru">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.4.1" build-num="9F2000"/>
+    </header>
+    <body>
+      <trans-unit id="3xb-Ok-0Fg.title">
+        <source>Robomathic</source>
+        <target>Robomathic</target>
+        <note>Class = "UINavigationController"; title = "Robomathic"; ObjectID = "3xb-Ok-0Fg";</note>
+      </trans-unit>
+      <trans-unit id="8mR-Xa-oEO.text">
+        <source>Invalid number of errors</source>
+        <target>Недопустимое количество ошибок</target>
+        <note>Class = "UILabel"; text = "Invalid number of errors"; ObjectID = "8mR-Xa-oEO";</note>
+      </trans-unit>
+      <trans-unit id="BYZ-38-t0r.title">
+        <source>Robomathic</source>
+        <note>Class = "UIViewController"; title = "Robomathic"; ObjectID = "BYZ-38-t0r";</note><target>Robomathic</target>
+      </trans-unit>
+      <trans-unit id="BgJ-fb-UEb.text">
+        <source>=</source>
+        <target>=</target>
+        <note>Class = "UILabel"; text = "="; ObjectID = "BgJ-fb-UEb";</note>
+      </trans-unit>
+      <trans-unit id="Mnm-SL-Gud.text">
+        <source>0</source>
+        <target>0</target>
+        <note>Class = "UILabel"; text = "0"; ObjectID = "Mnm-SL-Gud";</note>
+      </trans-unit>
+      <trans-unit id="Pvf-vi-Rtc.text">
+        <source>Start training</source>
+        <target>Начать тренировку</target>
+        <note>Class = "UILabel"; text = "Start training"; ObjectID = "Pvf-vi-Rtc";</note>
+      </trans-unit>
+      <trans-unit id="SVj-Xt-CiQ.text">
+        <source>Select difficulty level</source>
+        <target>Выберите уровень сложности</target>
+        <note>Class = "UILabel"; text = "Select difficulty level"; ObjectID = "SVj-Xt-CiQ";</note>
+      </trans-unit>
+      <trans-unit id="TGx-J3-jiw.text">
+        <source>Best result:</source>
+        <target>Лучший результат:</target>
+        <note>Class = "UILabel"; text = "Best result:"; ObjectID = "TGx-J3-jiw";</note>
+      </trans-unit>
+      <trans-unit id="Tfu-aY-6d6.title">
+        <source>Robomathic</source>
+        <target>BrainCalc</target>
+        <note>Class = "UINavigationItem"; title = "Robomathic"; ObjectID = "Tfu-aY-6d6";</note>
+      </trans-unit>
+      <trans-unit id="Zb5-D4-9tn.text">
+        <source>0</source>
+        <target>0</target>
+        <note>Class = "UILabel"; text = "0"; ObjectID = "Zb5-D4-9tn";</note>
+      </trans-unit>
+      <trans-unit id="eAG-MF-oHN.normalTitle">
+        <source>End training</source>
+        <target>Завершить</target>
+        <note>Class = "UIButton"; normalTitle = "End training"; ObjectID = "eAG-MF-oHN";</note>
+      </trans-unit>
+      <trans-unit id="gNV-Dm-TFk.text">
+        <source>0</source>
+        <target>0</target>
+        <note>Class = "UILabel"; text = "0"; ObjectID = "gNV-Dm-TFk";</note>
+      </trans-unit>
+      <trans-unit id="ja0-6v-dRO.text">
+        <source>0</source>
+        <target>0</target>
+        <note>Class = "UILabel"; text = "0"; ObjectID = "ja0-6v-dRO";</note>
+      </trans-unit>
+      <trans-unit id="kPo-Cd-jWK.text">
+        <source>Clean</source>
+        <target>Очистить</target>
+        <note>Class = "UILabel"; text = "Clean"; ObjectID = "kPo-Cd-jWK";</note>
+      </trans-unit>
+      <trans-unit id="rs4-oN-X6y.text">
+        <source>Total counted:</source>
+        <target>Всего насчитано:</target>
+        <note>Class = "UILabel"; text = "Total counted:"; ObjectID = "rs4-oN-X6y";</note>
+      </trans-unit>
+      <trans-unit id="uxP-aE-f63.text">
+        <source>The result is rounded to an integer</source>
+        <target>Округляйте ответ до целого числа</target>
+        <note>Class = "UILabel"; text = "The result is rounded to an integer"; ObjectID = "uxP-aE-f63";</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

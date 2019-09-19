@@ -1,0 +1,6 @@
+/* Bundle display name */
+"CFBundleDisplayName" = "Robomathic";
+
+/* Bundle name */
+"CFBundleName" = "$(PRODUCT_NAME)";
+

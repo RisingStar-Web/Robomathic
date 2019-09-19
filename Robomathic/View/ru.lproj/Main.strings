@@ -1,0 +1,48 @@
+/* Class = "UINavigationController"; title = "Robomathic"; ObjectID = "3xb-Ok-0Fg"; */
+"3xb-Ok-0Fg.title" = "Robomathic";
+
+/* Class = "UILabel"; text = "Invalid number of errors"; ObjectID = "8mR-Xa-oEO"; */
+"8mR-Xa-oEO.text" = "Недопустимое количество ошибок";
+
+/* Class = "UILabel"; text = "="; ObjectID = "BgJ-fb-UEb"; */
+"BgJ-fb-UEb.text" = "=";
+
+/* Class = "UIViewController"; title = "Robomathic"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "Robomathic";
+
+/* Class = "UIButton"; normalTitle = "End training"; ObjectID = "eAG-MF-oHN"; */
+"eAG-MF-oHN.normalTitle" = "Завершить";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "gNV-Dm-TFk"; */
+"gNV-Dm-TFk.text" = "0";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "ja0-6v-dRO"; */
+"ja0-6v-dRO.text" = "0";
+
+/* Class = "UILabel"; text = "Clean"; ObjectID = "kPo-Cd-jWK"; */
+"kPo-Cd-jWK.text" = "Очистить";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Mnm-SL-Gud"; */
+"Mnm-SL-Gud.text" = "0";
+
+/* Class = "UILabel"; text = "Start training"; ObjectID = "Pvf-vi-Rtc"; */
+"Pvf-vi-Rtc.text" = "Начать тренировку";
+
+/* Class = "UILabel"; text = "Total counted:"; ObjectID = "rs4-oN-X6y"; */
+"rs4-oN-X6y.text" = "Всего насчитано:";
+
+/* Class = "UILabel"; text = "Select difficulty level"; ObjectID = "SVj-Xt-CiQ"; */
+"SVj-Xt-CiQ.text" = "Выберите уровень сложности";
+
+/* Class = "UINavigationItem"; title = "Robomathic"; ObjectID = "Tfu-aY-6d6"; */
+"Tfu-aY-6d6.title" = "BrainCalc";
+
+/* Class = "UILabel"; text = "Best result:"; ObjectID = "TGx-J3-jiw"; */
+"TGx-J3-jiw.text" = "Лучший результат:";
+
+/* Class = "UILabel"; text = "The result is rounded to an integer"; ObjectID = "uxP-aE-f63"; */
+"uxP-aE-f63.text" = "Округляйте ответ до целого числа";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Zb5-D4-9tn"; */
+"Zb5-D4-9tn.text" = "0";
+
