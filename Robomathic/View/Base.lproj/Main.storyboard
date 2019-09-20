@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3xb-Ok-0Fg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3xb-Ok-0Fg">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -44,7 +42,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Start training" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pvf-vi-Rtc">
                                         <rect key="frame" x="0.0" y="0.0" width="290" height="26.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                        <color key="textColor" red="0.51372549020000002" green="0.52156862749999999" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=regular">
                                             <fontDescription key="fontDescription" type="system" pointSize="38"/>
@@ -53,7 +51,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select difficulty level" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SVj-Xt-CiQ">
                                         <rect key="frame" x="15" y="36.5" width="260" height="18.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                        <color key="textColor" red="0.51372549020000002" green="0.52156862749999999" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="widthClass=regular">
                                             <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -83,15 +81,7 @@
                                             <constraint firstAttribute="width" secondItem="kFl-gY-nt8" secondAttribute="height" multiplier="1:1" id="d4q-W3-LyS"/>
                                         </constraints>
                                         <state key="normal" backgroundImage="button-light">
-                                            <attributedString key="attributedTitle">
-                                                <fragment content="Easy">
-                                                    <attributes>
-                                                        <color key="NSColor" red="0.56862745098039214" green="0.56862745098039214" blue="0.56862745098039214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <font key="NSFont" size="14" name=".AppleSystemUIFont"/>
-                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="8" minimumLineHeight="10" tighteningFactorForTruncation="0.0"/>
-                                                    </attributes>
-                                                </fragment>
-                                            </attributedString>
+                                            <attributedString key="attributedTitle"/>
                                         </state>
                                         <connections>
                                             <segue destination="LNj-So-tjr" kind="custom" identifier="LevelLight" customClass="SegueZoom" customModule="Robomathic" customModuleProvider="target" id="p0g-rc-pxe"/>
@@ -103,15 +93,7 @@
                                             <constraint firstAttribute="width" secondItem="vZQ-9k-N1J" secondAttribute="height" multiplier="1:1" id="5li-LJ-g4k"/>
                                         </constraints>
                                         <state key="normal" backgroundImage="button-middle">
-                                            <attributedString key="attributedTitle">
-                                                <fragment content="Medium">
-                                                    <attributes>
-                                                        <color key="NSColor" red="0.56862745098039214" green="0.56862745098039214" blue="0.56862745098039214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <font key="NSFont" size="14" name=".AppleSystemUIFont"/>
-                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="8" minimumLineHeight="10" tighteningFactorForTruncation="0.0"/>
-                                                    </attributes>
-                                                </fragment>
-                                            </attributedString>
+                                            <attributedString key="attributedTitle"/>
                                         </state>
                                         <connections>
                                             <segue destination="LNj-So-tjr" kind="custom" identifier="LevelMiddle" customClass="SegueZoom" customModule="Robomathic" customModuleProvider="target" id="ToB-FH-dwB"/>
@@ -123,15 +105,7 @@
                                             <constraint firstAttribute="width" secondItem="zuM-5d-AqF" secondAttribute="height" multiplier="1:1" id="Jkr-Ia-7rN"/>
                                         </constraints>
                                         <state key="normal" backgroundImage="button-hard">
-                                            <attributedString key="attributedTitle">
-                                                <fragment content="Hard">
-                                                    <attributes>
-                                                        <color key="NSColor" red="0.56862745098039214" green="0.56862745098039214" blue="0.56862745098039214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <font key="NSFont" size="14" name=".AppleSystemUIFont"/>
-                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="8" minimumLineHeight="10" tighteningFactorForTruncation="0.0"/>
-                                                    </attributes>
-                                                </fragment>
-                                            </attributedString>
+                                            <attributedString key="attributedTitle"/>
                                         </state>
                                         <connections>
                                             <segue destination="LNj-So-tjr" kind="custom" identifier="LevelHard" customClass="SegueZoom" customModule="Robomathic" customModuleProvider="target" id="fwf-eT-eGB"/>
@@ -157,7 +131,7 @@
                                 </variation>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.85168546440000004" green="0.60970985889999996" blue="0.23106849190000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Vn8-WJ-Wgq" secondAttribute="bottom" constant="15" id="2kJ-8U-ZFh"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vn8-WJ-Wgq" secondAttribute="trailing" constant="15" id="9Rc-Bp-gVK">
@@ -263,7 +237,7 @@
                                 <rect key="frame" x="0.0" y="49" width="320" height="173"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNV-Dm-TFk">
-                                        <rect key="frame" x="15" y="71.5" width="290" height="31.5"/>
+                                        <rect key="frame" x="15" y="71" width="290" height="31.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                         <color key="textColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.99607843137254903" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -287,7 +261,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" red="0.51372549019607838" green="0.52156862745098043" blue="0.61960784313725492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.91764705879999997" green="0.43137254899999999" blue="0.08235294118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="b1d-ZS-bG3" secondAttribute="bottom" id="4h5-EZ-HDl"/>
                                     <constraint firstItem="gNV-Dm-TFk" firstAttribute="leading" secondItem="yqv-bl-FNu" secondAttribute="leading" constant="15" id="6sv-os-vMY"/>
@@ -310,7 +284,7 @@
                                 <rect key="frame" x="0.0" y="262" width="320" height="52"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1nh-gj-POb">
-                                        <rect key="frame" x="15" y="25.5" width="290" height="0.0"/>
+                                        <rect key="frame" x="15" y="26" width="290" height="0.0"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <color key="textColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.99607843137254903" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -331,7 +305,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" red="0.51372549020000002" green="0.52156862749999999" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.91764705879999997" green="0.43137254899999999" blue="0.08235294118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="1nh-gj-POb" firstAttribute="centerY" secondItem="H3V-lg-865" secondAttribute="centerY" id="8U9-TW-YDt"/>
                                     <constraint firstAttribute="bottom" secondItem="w7G-dm-SVU" secondAttribute="bottom" id="9kn-Au-b5U"/>
@@ -369,7 +343,7 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mnm-SL-Gud">
-                                                            <rect key="frame" x="4" y="8" width="42" height="33.5"/>
+                                                            <rect key="frame" x="4" y="8.5" width="42" height="33.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                                             <color key="textColor" red="0.51372549019607838" green="0.52156862745098043" blue="0.61960784313725492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -522,7 +496,7 @@
                                 </variation>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.85168546440000004" green="0.60970985889999996" blue="0.23106849190000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="yqv-bl-FNu" firstAttribute="top" secondItem="TrY-iJ-fH8" secondAttribute="bottom" id="00h-Um-iUB"/>
                             <constraint firstItem="H3V-lg-865" firstAttribute="leading" secondItem="1lo-gb-XKn" secondAttribute="leading" id="DtW-Et-cOK"/>
@@ -590,7 +564,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Invalid number of errors" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8mR-Xa-oEO">
                                         <rect key="frame" x="0.0" y="0.0" width="290" height="21.5"/>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
-                                        <color key="textColor" red="0.51372549020000002" green="0.52156862749999999" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="widthClass=regular">
                                             <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="38"/>
@@ -599,7 +573,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Best result:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TGx-J3-jiw">
                                         <rect key="frame" x="0.0" y="36.5" width="290" height="17"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <color key="textColor" red="0.51372549020000002" green="0.52156862749999999" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="widthClass=regular">
                                             <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -611,7 +585,7 @@
                                             <constraint firstAttribute="height" constant="32" id="tTb-j3-M1W"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
-                                        <color key="textColor" red="0.51372549020000002" green="0.52156862749999999" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N6z-cr-ziG">
@@ -658,7 +632,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.85168546440000004" green="0.60970985889999996" blue="0.23106849190000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Ylg-05-0Ip" firstAttribute="top" secondItem="MSZ-S3-Uge" secondAttribute="bottom" constant="30" id="41K-2D-rBp"/>
                             <constraint firstItem="x5u-dY-xrb" firstAttribute="trailing" secondItem="MSZ-S3-Uge" secondAttribute="trailing" constant="15" id="8nH-IV-voJ"/>
